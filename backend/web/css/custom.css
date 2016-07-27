@@ -1,0 +1,16 @@
+.new-post{display: none;}
+
+.progress{height: 8px!important;margin-bottom: 0!important}
+
+.alert{padding: 25px 20px!important;}
+
+.img-preview{
+	width: 100px;
+    height: 100px;
+    border: 1px solid #CFDADD;
+    margin-bottom: 15px;
+}
+
+.img-preview img{
+	width: 100%;
+}

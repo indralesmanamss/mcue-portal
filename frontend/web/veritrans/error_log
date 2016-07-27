@@ -1,0 +1,37 @@
+[02-Jun-2016 07:27:57 UTC] PHP Warning:  include_once(/home/urologim/public_html/mcue/veritrans-php-master/vendor/autoload.php): failed to open stream: No such file or directory in /home/urologim/public_html/mcue/veritrans-php-master/test_bootstrap.php on line 6
+[02-Jun-2016 07:27:57 UTC] PHP Warning:  include_once(): Failed opening '/home/urologim/public_html/mcue/veritrans-php-master/vendor/autoload.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/urologim/public_html/mcue/veritrans-php-master/test_bootstrap.php on line 6
+[02-Jun-2016 07:29:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Veritrans Error (401): Access denied due to unauthorized transaction, please check client or server key' in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php:96
+Stack trace:
+#0 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php(28): Veritrans_ApiRequestor::remoteCall('https://api.san...', '<your server ke...', Array, true)
+#1 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/VtWeb.php(55): Veritrans_ApiRequestor::post('https://api.san...', '<your server ke...', Array)
+#2 /home/urologim/public_html/mcue/veritrans-php-master/test.php(24): Veritrans_VtWeb::getRedirectionUrl(Array)
+#3 {main}
+  thrown in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php on line 96
+[02-Jun-2016 07:36:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Veritrans Error (400): Validation Error, [transaction_details.gross_amount is not equal to the sum of item_details]' in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php:96
+Stack trace:
+#0 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php(28): Veritrans_ApiRequestor::remoteCall('https://api.san...', 'VT-server-69iim...', Array, true)
+#1 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/VtWeb.php(55): Veritrans_ApiRequestor::post('https://api.san...', 'VT-server-69iim...', Array)
+#2 /home/urologim/public_html/mcue/veritrans-php-master/test.php(79): Veritrans_VtWeb::getRedirectionUrl(Array)
+#3 {main}
+  thrown in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php on line 96
+[02-Jun-2016 07:36:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Veritrans Error (400): Validation Error, [transaction_details.gross_amount is not equal to the sum of item_details]' in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php:96
+Stack trace:
+#0 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php(28): Veritrans_ApiRequestor::remoteCall('https://api.san...', 'VT-server-69iim...', Array, true)
+#1 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/VtWeb.php(55): Veritrans_ApiRequestor::post('https://api.san...', 'VT-server-69iim...', Array)
+#2 /home/urologim/public_html/mcue/veritrans-php-master/test.php(79): Veritrans_VtWeb::getRedirectionUrl(Array)
+#3 {main}
+  thrown in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php on line 96
+[02-Jun-2016 07:37:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Veritrans Error (400): Validation Error, [transaction_details.gross_amount is not equal to the sum of item_details]' in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php:96
+Stack trace:
+#0 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php(28): Veritrans_ApiRequestor::remoteCall('https://api.san...', 'VT-server-69iim...', Array, true)
+#1 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/VtWeb.php(55): Veritrans_ApiRequestor::post('https://api.san...', 'VT-server-69iim...', Array)
+#2 /home/urologim/public_html/mcue/veritrans-php-master/test.php(79): Veritrans_VtWeb::getRedirectionUrl(Array)
+#3 {main}
+  thrown in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php on line 96
+[02-Jun-2016 07:38:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Veritrans Error (413): The request cannot be processed due to malformed syntax in the request body' in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php:96
+Stack trace:
+#0 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php(28): Veritrans_ApiRequestor::remoteCall('https://api.san...', 'VT-server-69iim...', Array, true)
+#1 /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/VtWeb.php(55): Veritrans_ApiRequestor::post('https://api.san...', 'VT-server-69iim...', Array)
+#2 /home/urologim/public_html/mcue/veritrans-php-master/test.php(80): Veritrans_VtWeb::getRedirectionUrl(Array)
+#3 {main}
+  thrown in /home/urologim/public_html/mcue/veritrans-php-master/Veritrans/ApiRequestor.php on line 96
